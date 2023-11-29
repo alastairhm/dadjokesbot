@@ -1,0 +1,17 @@
+{
+  "name": "dadjokebot",
+  "version": "1.0.0",
+  "description": "Dad Joke Mastodon Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alastair Montgomery",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.54.0",
+    "got": "^13.0.0",
+    "masto": "^6.5.1"
+  }
+}
