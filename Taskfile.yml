@@ -14,3 +14,13 @@ tasks:
     cmds:
       - docker push alastairhm/dadjokesbot:latest
     silent: true
+  build-arm:
+    desc: Build for Docker Hub
+    cmds:
+      - docker buildx build -t alastairhm/dadjokesbot:arm ./
+    silent: true
+  push-arm:
+    desc: Push to Docker Hub
+    cmds:
+      - docker push alastairhm/dadjokesbot:arm
+    silent: true
