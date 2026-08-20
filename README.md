@@ -11,3 +11,7 @@ An example of the bot posts can be see on this Mastodon account [https://mastodo
 
 This is done by running the Docker container via crontab.
 
+
+## On the blog
+
+* https://blog.0x32.co.uk/posts/node_jokebot/
